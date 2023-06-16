@@ -1,6 +1,8 @@
 import './style.css'
-import { setupForm } from './ts/setupForm'
+import { calculateAge, setupForm, setupResult } from './ts/index'
 
 document.addEventListener('DOMContentLoaded', () => {
   setupForm()
+  setupResult()
+  calculateAge()
 })
